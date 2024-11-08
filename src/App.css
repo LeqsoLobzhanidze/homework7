@@ -1,0 +1,50 @@
+/* App.css */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #1a1a1a;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 10px;
+  color: #FFF;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #333;
+}
+
+.button.selected {
+  background-color: #FFA500;
+}
+
+.submitButton {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: #FFA500;
+  border: none;
+  color: #FFF;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
